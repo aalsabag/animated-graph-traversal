@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "animatedGraphTraversal": {
+    "animated-graph-traversal": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/animatedGraphTraversal",
+            "outputPath": "dist/animated-graph-traversal",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "animatedGraphTraversal:build"
+            "browserTarget": "animated-graph-traversal:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "animatedGraphTraversal:build:production"
+              "browserTarget": "animated-graph-traversal:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "animatedGraphTraversal:build"
+            "browserTarget": "animated-graph-traversal:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "animatedGraphTraversal:serve"
+            "devServerTarget": "animated-graph-traversal:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "animatedGraphTraversal:serve:production"
+              "devServerTarget": "animated-graph-traversal:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "animatedGraphTraversal"
+  "defaultProject": "animated-graph-traversal"
 }
