@@ -1,4 +1,5 @@
-# AnimatedGraphTraversal
+# animated-graph-traversal
+A library for in depth visualization of the traversal of graphs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
